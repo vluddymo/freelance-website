@@ -3,11 +3,11 @@ import Link from 'next/link'
 import React from 'react'
 
 const linkButton = cva(
-    'inline-flex items-center justify-center rounded font-semibold transition-colors',
+    'block fit-content rounded block width-5 font-semibold transition-colors',
     {
         variants: {
             intent: {
-                primary: 'bg-brand text-white hover:bg-blue-700',
+                primary: 'bg-brand text-white bg-green-500 hover:bg-green-700',
                 secondary: 'bg-gray-200 text-gray-800 hover:bg-gray-300',
             },
             size: {
